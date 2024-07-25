@@ -1,2 +1,18 @@
-# readme-creator
-A application to generate a readme with console inputs.
+ Readme Generator
+  by Jacob Robison
+
+  ## Table of Contents
+  - [Description](#description)
+  - [Requirements](#requirements)
+  - [Usage](#usage)
+  - [Tests](#tests) 
+
+  ## Description
+  A generator for a profession project readme
+  ## Requirements
+  Nodejs and inquirer
+  ## Usage
+  Run node index.js in the console
+  ## Tests
+  jest would be a great option for testing functionality
+
