@@ -5,10 +5,15 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
-const { type } = require("os");
+
 
 // TODO: Create an array of questions for user input
 const questions = [
+    {
+        type: "input",
+        name: "name",
+        message: "What is your name?",
+ },
 {
     type: "input",
     name: "title",
