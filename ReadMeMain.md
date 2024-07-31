@@ -9,6 +9,8 @@
 
   ## Description
   A generator for a profession project readme
+  ## Demonstration
+  https://youtu.be/fHmLVst5Llw
   ## Requirements
   Nodejs and inquirer
   ## Usage
