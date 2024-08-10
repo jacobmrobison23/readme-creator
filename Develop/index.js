@@ -5,10 +5,12 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
+const { type } = require("os");
 
 
 // TODO: Create an array of questions for user input
 const questions = [
+
     {
         type: "input",
         name: "name",
@@ -60,6 +62,11 @@ choices: ["MIT", "Apache", "GPL", "BSD", "None"]
     type: "input",
     name: "email",
     message: "What is your email address?",
+},
+{
+type:"input",
+name:"contributors",
+message:"Who helped contribute to the project?"
 }
 
 ];
